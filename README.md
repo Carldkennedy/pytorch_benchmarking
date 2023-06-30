@@ -78,4 +78,4 @@ Calls the following scripts:
 
 ## Initial Results
 
-![Alt text](initialResults/ResNet152.png "Title")
+![Alt text](initialResults/ResNet152.png)
