@@ -6,29 +6,23 @@ trained on the CIFAR10 dataset with a sweep of batch sizes.
 
 ### Create environments and download data:
 
-    `source setup.sh`
+    source setup.sh
     
-        source env_11.8_n.sh
-        source env_12.1_n.sh
-        source env_pandas.sh
+To avoid filling your home directory add to your `.condarc` 
 
-    To avoid filling your home directory add to your `.condarc` 
-
-    ```
     pkgs_dirs:
     - /mnt/parscratch/users/$USER/anaconda/.pkg-cache
 
     envs_dirs:
     - /mnt/parscratch/users/$USER/anaconda/.envs
-    ```
+
 
 ### Submit many jobs:
     
-    `source submission.sh`
+    source submission.sh
 
-    Please edit the preamble of submission.sh to your requirements:
+Please edit the preamble of submission.sh to your requirements:
 
-    ```
     ########################## Edit as required ############################
     folder_name="standard"                      # Choose a name for this run
     gpus=("a" "h")                              # options a,h
@@ -37,10 +31,9 @@ trained on the CIFAR10 dataset with a sweep of batch sizes.
     batch_sizes=("32" "64" "128" "256" "512")   # options 32,64,128,256,512
     num_runs=10                                 # (default:10)
     ########################################################################
-    ```
 
-    Please change folder_name apporpriately for each submission. Any further runs with the same folder_name will output to the same directory.
-    A copy of all scripts will be saved along with the output.  
+Please change folder_name apporpriately for each submission. Any further runs with the same folder_name will output to the same directory.
+A copy of all scripts will be saved along with the output.  
 
 #### Sbatch submission:
     
@@ -55,7 +48,7 @@ trained on the CIFAR10 dataset with a sweep of batch sizes.
 
     `sbatch plot.sh`
 
-    Calls the following scrips
+    Calls the following scripts:
 
 ### Collate statistics from output files:
 
