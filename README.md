@@ -75,3 +75,7 @@ Calls the following scripts:
     | |____fetch_data_CIFAR10.sh
     | |____env_12.1_n.sh
     | |____env_plotter.sh
+
+## Initial Results
+
+![Alt text](initialResults/ResNet152.png "Title")
