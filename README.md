@@ -4,7 +4,7 @@ The purpose of this repository and the two scripts `setup.sh` and `submission.sh
 both A100 and H100 GPUs on the Sheffield University HPC Stanage cluster. Benchmarking is performed with ResNet 18,50 and 152
 trained on the CIFAR10 dataset with a sweep of batch sizes.
 
-### Create environments and download data:
+## Create environments and download data:
 
     source setup.sh
     
@@ -17,7 +17,7 @@ To avoid filling your home directory add to your `.condarc`
     - /mnt/parscratch/users/$USER/anaconda/.envs
 
 
-### Submit many jobs:
+## Submit many jobs:
     
     source submission.sh
 
@@ -35,26 +35,26 @@ Please edit the preamble of submission.sh to your requirements:
 Please change folder_name apporpriately for each submission. Any further runs with the same folder_name will output to the same directory.
 A copy of all scripts will be saved along with the output.  
 
-## Sbatch submission:
+### Sbatch submission:
     
     batch_res_a.sh
     batch_res_h.sh
     
-### ResNet:
+#### ResNet:
     
     ResNet.py
 
-## Create plots:
+### Create plots:
 
     sbatch plot.sh
 
 Calls the following scripts:
 
-### Collate statistics from output files:
+#### Collate statistics from output files:
 
     Stats.sh
 
-### Plot and each ResNet Model for all GPU and Cuda versions
+#### Plot and each ResNet Model for all GPU and Cuda versions
         
     plot.py
 
