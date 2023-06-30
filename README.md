@@ -60,18 +60,18 @@ Calls the following scripts:
 
 ## Directory structure
 
-pytorch_benchmarking
-|____batch_res_a.sh
-|____batch_res_h.sh
-|____plot.sh
-|____ResNet.py
-|____setup.sh
-|____submission_original.sh
-|____submission.sh
-|____setup
-| |____fetch_data_CIFAR10.py
-| |____torchbenchmark-12.1-env.47547.out
-| |____env_11.8_n.sh
-| |____fetch_data_CIFAR10.sh
-| |____env_12.1_n.sh
-| |____env_plotter.sh
+    pytorch_benchmarking
+    |____batch_res_a.sh
+    |____batch_res_h.sh
+    |____plot.sh
+    |____ResNet.py
+    |____setup.sh
+    |____submission_original.sh
+    |____submission.sh
+    |____setup
+    | |____fetch_data_CIFAR10.py
+    | |____torchbenchmark-12.1-env.47547.out
+    | |____env_11.8_n.sh
+    | |____fetch_data_CIFAR10.sh
+    | |____env_12.1_n.sh
+    | |____env_plotter.sh
