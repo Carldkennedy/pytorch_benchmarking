@@ -35,7 +35,7 @@ Please edit the preamble of submission.sh to your requirements:
 Please change folder_name apporpriately for each submission. Any further runs with the same folder_name will output to the same directory.
 A copy of all scripts will be saved along with the output.  
 
-#### Sbatch submission:
+## Sbatch submission:
     
     batch_res_a.sh
     batch_res_h.sh
@@ -46,9 +46,9 @@ A copy of all scripts will be saved along with the output.
 
 ## Create plots:
 
-    `sbatch plot.sh`
+    sbatch plot.sh
 
-    Calls the following scripts:
+Calls the following scripts:
 
 ### Collate statistics from output files:
 
