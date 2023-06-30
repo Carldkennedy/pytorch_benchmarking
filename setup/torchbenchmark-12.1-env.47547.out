@@ -1,0 +1,130 @@
+Collecting package metadata (current_repodata.json): ...working... done
+Solving environment: ...working... failed with initial frozen solve. Retrying with flexible solve.
+Solving environment: ...working... failed with repodata from current_repodata.json, will retry with next repodata source.
+Collecting package metadata (repodata.json): ...working... done
+Solving environment: ...working... done
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 22.9.0
+  latest version: 23.5.0
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+
+
+## Package Plan ##
+
+  environment location: /mnt/parscratch/users/cs1cdk/anaconda/.envs/torchbenchmark-12.1-n
+
+  added / updated specs:
+    - pytorch
+    - pytorch-cuda=12.1
+    - torchaudio
+    - torchvision
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    pytorch-2.1.0.dev20230623  |py3.10_cuda12.1_cudnn8.9.2_0        1.27 GB  pytorch-nightly
+    torchaudio-2.1.0.dev20230623|      py310_cu121         7.1 MB  pytorch-nightly
+    torchvision-0.16.0.dev20230623|      py310_cu121         8.2 MB  pytorch-nightly
+    ------------------------------------------------------------
+                                           Total:        1.28 GB
+
+The following NEW packages will be INSTALLED:
+
+  blas               pkgs/main/linux-64::blas-1.0-mkl None
+  brotlipy           pkgs/main/linux-64::brotlipy-0.7.0-py310h7f8727e_1002 None
+  certifi            pkgs/main/linux-64::certifi-2023.5.7-py310h06a4308_0 None
+  cffi               pkgs/main/linux-64::cffi-1.15.1-py310h5eee18b_3 None
+  charset-normalizer pkgs/main/noarch::charset-normalizer-2.0.4-pyhd3eb1b0_0 None
+  cryptography       pkgs/main/linux-64::cryptography-39.0.1-py310h9ce1e76_2 None
+  cuda-cudart        nvidia/linux-64::cuda-cudart-12.1.105-0 None
+  cuda-cupti         nvidia/linux-64::cuda-cupti-12.1.105-0 None
+  cuda-libraries     nvidia/linux-64::cuda-libraries-12.1.0-0 None
+  cuda-nvrtc         nvidia/linux-64::cuda-nvrtc-12.1.105-0 None
+  cuda-nvtx          nvidia/linux-64::cuda-nvtx-12.1.105-0 None
+  cuda-opencl        nvidia/linux-64::cuda-opencl-12.1.105-0 None
+  cuda-runtime       nvidia/linux-64::cuda-runtime-12.1.0-0 None
+  ffmpeg             pkgs/main/linux-64::ffmpeg-4.2.2-h20bf706_0 None
+  filelock           pkgs/main/linux-64::filelock-3.9.0-py310h06a4308_0 None
+  freetype           pkgs/main/linux-64::freetype-2.12.1-h4a9f257_0 None
+  giflib             pkgs/main/linux-64::giflib-5.2.1-h5eee18b_3 None
+  gmp                pkgs/main/linux-64::gmp-6.2.1-h295c915_3 None
+  gmpy2              pkgs/main/linux-64::gmpy2-2.1.2-py310heeb90bb_0 None
+  gnutls             pkgs/main/linux-64::gnutls-3.6.15-he1e5248_0 None
+  idna               pkgs/main/linux-64::idna-3.4-py310h06a4308_0 None
+  intel-openmp       pkgs/main/linux-64::intel-openmp-2023.1.0-hdb19cb5_46305 None
+  jinja2             pkgs/main/linux-64::jinja2-3.1.2-py310h06a4308_0 None
+  jpeg               pkgs/main/linux-64::jpeg-9e-h5eee18b_1 None
+  lame               pkgs/main/linux-64::lame-3.100-h7b6447c_0 None
+  lcms2              pkgs/main/linux-64::lcms2-2.12-h3be6417_0 None
+  lerc               pkgs/main/linux-64::lerc-3.0-h295c915_0 None
+  libcublas          nvidia/linux-64::libcublas-12.1.0.26-0 None
+  libcufft           nvidia/linux-64::libcufft-11.0.2.4-0 None
+  libcufile          nvidia/linux-64::libcufile-1.6.1.9-0 None
+  libcurand          nvidia/linux-64::libcurand-10.3.2.106-0 None
+  libcusolver        nvidia/linux-64::libcusolver-11.4.4.55-0 None
+  libcusparse        nvidia/linux-64::libcusparse-12.0.2.55-0 None
+  libdeflate         pkgs/main/linux-64::libdeflate-1.17-h5eee18b_0 None
+  libidn2            pkgs/main/linux-64::libidn2-2.3.4-h5eee18b_0 None
+  libnpp             nvidia/linux-64::libnpp-12.0.2.50-0 None
+  libnvjitlink       nvidia/linux-64::libnvjitlink-12.1.105-0 None
+  libnvjpeg          nvidia/linux-64::libnvjpeg-12.1.0.39-0 None
+  libopus            pkgs/main/linux-64::libopus-1.3.1-h7b6447c_0 None
+  libpng             pkgs/main/linux-64::libpng-1.6.39-h5eee18b_0 None
+  libtasn1           pkgs/main/linux-64::libtasn1-4.19.0-h5eee18b_0 None
+  libtiff            pkgs/main/linux-64::libtiff-4.5.0-h6a678d5_2 None
+  libunistring       pkgs/main/linux-64::libunistring-0.9.10-h27cfd23_0 None
+  libvpx             pkgs/main/linux-64::libvpx-1.7.0-h439df22_0 None
+  libwebp            pkgs/main/linux-64::libwebp-1.2.4-h11a3e52_1 None
+  libwebp-base       pkgs/main/linux-64::libwebp-base-1.2.4-h5eee18b_1 None
+  lz4-c              pkgs/main/linux-64::lz4-c-1.9.4-h6a678d5_0 None
+  markupsafe         pkgs/main/linux-64::markupsafe-2.1.1-py310h7f8727e_0 None
+  mkl                pkgs/main/linux-64::mkl-2023.1.0-h6d00ec8_46342 None
+  mkl-service        pkgs/main/linux-64::mkl-service-2.4.0-py310h5eee18b_1 None
+  mkl_fft            pkgs/main/linux-64::mkl_fft-1.3.6-py310h1128e8f_1 None
+  mkl_random         pkgs/main/linux-64::mkl_random-1.2.2-py310h1128e8f_1 None
+  mpc                pkgs/main/linux-64::mpc-1.1.0-h10f8cd9_1 None
+  mpfr               pkgs/main/linux-64::mpfr-4.0.2-hb69a4c5_1 None
+  mpmath             pkgs/main/linux-64::mpmath-1.2.1-py310h06a4308_0 None
+  nettle             pkgs/main/linux-64::nettle-3.7.3-hbbd107a_1 None
+  networkx           pkgs/main/linux-64::networkx-2.8.4-py310h06a4308_1 None
+  numpy              pkgs/main/linux-64::numpy-1.24.3-py310h5f9d8c6_1 None
+  numpy-base         pkgs/main/linux-64::numpy-base-1.24.3-py310hb5e798b_1 None
+  openh264           pkgs/main/linux-64::openh264-2.1.1-h4ff587b_0 None
+  pillow             pkgs/main/linux-64::pillow-9.4.0-py310h6a678d5_0 None
+  pycparser          pkgs/main/noarch::pycparser-2.21-pyhd3eb1b0_0 None
+  pyopenssl          pkgs/main/linux-64::pyopenssl-23.0.0-py310h06a4308_0 None
+  pysocks            pkgs/main/linux-64::pysocks-1.7.1-py310h06a4308_0 None
+  pytorch            pytorch-nightly/linux-64::pytorch-2.1.0.dev20230623-py3.10_cuda12.1_cudnn8.9.2_0 None
+  pytorch-cuda       pytorch-nightly/linux-64::pytorch-cuda-12.1-ha16c6d3_5 None
+  pytorch-mutex      pytorch-nightly/noarch::pytorch-mutex-1.0-cuda None
+  pyyaml             pkgs/main/linux-64::pyyaml-6.0-py310h5eee18b_1 None
+  requests           pkgs/main/linux-64::requests-2.29.0-py310h06a4308_0 None
+  sympy              pkgs/main/linux-64::sympy-1.11.1-py310h06a4308_0 None
+  tbb                pkgs/main/linux-64::tbb-2021.8.0-hdb19cb5_0 None
+  torchaudio         pytorch-nightly/linux-64::torchaudio-2.1.0.dev20230623-py310_cu121 None
+  torchtriton        pytorch-nightly/linux-64::torchtriton-2.1.0+440fd1bf20-py310 None
+  torchvision        pytorch-nightly/linux-64::torchvision-0.16.0.dev20230623-py310_cu121 None
+  typing_extensions  pkgs/main/linux-64::typing_extensions-4.6.3-py310h06a4308_0 None
+  urllib3            pkgs/main/linux-64::urllib3-1.26.16-py310h06a4308_0 None
+  x264               pkgs/main/linux-64::x264-1!157.20191217-h7b6447c_0 None
+  yaml               pkgs/main/linux-64::yaml-0.2.5-h7b6447c_0 None
+  zstd               pkgs/main/linux-64::zstd-1.5.5-hc292b87_0 None
+
+
+
+Downloading and Extracting Packages
+pytorch-2.1.0.dev202 | 1.27 GB   |            |   0% pytorch-2.1.0.dev202 | 1.27 GB   | ########## | 100% pytorch-2.1.0.dev202 | 1.27 GB   | ########## | 100% 
+torchaudio-2.1.0.dev | 7.1 MB    |            |   0% torchaudio-2.1.0.dev | 7.1 MB    | ########## | 100% torchaudio-2.1.0.dev | 7.1 MB    | ########## | 100% 
+torchvision-0.16.0.d | 8.2 MB    |            |   0% torchvision-0.16.0.d | 8.2 MB    | ########## | 100% torchvision-0.16.0.d | 8.2 MB    | ########## | 100% 
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+Retrieving notices: ...working... done
