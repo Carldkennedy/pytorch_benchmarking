@@ -78,4 +78,4 @@ Calls the following scripts:
 
 ## Initial Results
 
-![Alt text](initialResults/ResNet152.png)
+![](https://github.com/Carldkennedy/pytorch_benchmarking/blob/main/intialResults/ResNet_all.png?raw=True)
