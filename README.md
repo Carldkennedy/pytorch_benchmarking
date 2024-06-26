@@ -77,5 +77,6 @@ Calls the following scripts:
     | |____env_plotter.sh
 
 ## Initial Results
-
-![](https://github.com/Carldkennedy/pytorch_benchmarking/blob/main/intialResults/ResNet_all.png?raw=True)
+<div align="center">
+  <img src="https://github.com/Carldkennedy/pytorch_benchmarking/blob/main/intialResults/ResNet_all.png?raw=True" width="700"/>
+</div>
